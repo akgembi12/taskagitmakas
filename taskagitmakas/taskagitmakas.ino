@@ -116,7 +116,11 @@ void snc(char user, int pc) {
       break;
   }
   sonucuyaz(myNum[pc]);
-  // Serial.println(myNum[1]);
+  //taş kagit ve makas durumlarında beraberlik, galibiyet ve mağlubiyet durumları listeye yazıldı
+  //(1=Beraberlik , 2=Mağlubiyet, 3=Galibiyet)
+  //klavyeden gelen harf A(taş) ise liste {0,1,2,3} şeklinde oluyor
+  //rastgele seçilen sayı 1 (taş) ise listenin 1. elemanı alınıyor (1)
+  //sonuç olarak beraberlik sağlanmış oluyor
 }
 
 void sonucuyaz(int sonuc) {
